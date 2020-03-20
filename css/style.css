@@ -1,0 +1,230 @@
+:root{
+    --fundo: #ECEAEA;
+    --texto:black;
+    --color:#49E5E5;
+    --batepapo: #B9B9B9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: var(--fundo);
+    color: var(--texto);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: var(--texto);
+    text-decoration: none;
+    font-size: 1.4em;
+}
+img{
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.fas{
+    font-size: 2em;
+}
+.btn{
+    padding: 0.5em 0.7em;
+}
+.container{
+    background-color: var(--color);
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+#menu{
+    background-color: var(--fundo);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 2em 3em;
+    display: none;
+}
+#menu li, #menu a{
+    list-style:none;
+    padding: 10px 10em 10px 0;
+    width: 100%;
+}
+main{
+    display: flex;
+}
+.bloco1{
+    width: 120px;
+    height: 800px;
+    background-color: var(--batepapo);
+}
+.bloco1 h2{
+    font-size: 17px;
+    text-align: center;
+}
+.bloco1 h3{
+    font-size: 14px;
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+}
+/* final do bloco 1 */
+.bloco2{
+    width: 200px;
+    height: 815px;
+    background-color: var(--color);
+}
+.bloco2 h2{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+.comentario{
+    display: flex;
+    font-size: 10px;
+    padding: 10px;
+}
+.comentario2{
+    font-size: 12px;
+}
+.comentario3{
+    font-size: 15px;
+}
+/* final do bloco 2 */
+
+/* começo do bloco 3 */
+.bloco3{
+    width: 120px;
+    height: 800px;
+    background-color: var(--batepapo);
+}
+.bloco3 h2{
+    font-size: 17px;
+    text-align: center;
+}
+.bloco3 h3{
+    padding: 9px;
+    font-size: 9;
+}
+/* final do bloco 3 */
+.nomeicon{
+    font-size: 9px;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+@media(min-width:801px){
+    img{
+        width: 100%;
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+    }
+    .fas{
+        font-size: 2em;
+    }
+    .btn{
+        padding: 0.5em 0.7em;
+    }
+    .container{
+        background-color: var(--color);
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+    }
+    #menu{
+        background-color: var(--fundo);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        padding: 2em 3em;
+        display: none;
+    }
+    #menu li, #menu a{
+        list-style:none;
+        padding: 10px 10em 10px 0;
+        width: 100%;
+    }
+    main{
+        display: flex;
+    }
+    .bloco1{
+        width: 120px;
+        height: 800px;
+        background-color: var(--batepapo);
+    }
+    .bloco1 h2{
+        font-size: 17px;
+        text-align: center;
+    }
+    .bloco1 h3{
+        font-size: 14px;
+        width: 85%;
+        text-align: center;
+        padding: 10px;
+    }
+    /* final do bloco 1 */
+    .bloco2{
+        width: 200px;
+        height: 815px;
+        background-color: var(--color);
+    }
+    .bloco2 h2{
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+    .comentario{
+        display: flex;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .comentario2{
+        font-size: 12px;
+    }
+    .comentario3{
+        font-size: 15px;
+    }
+    /* final do bloco 2 */
+    
+    /* começo do bloco 3 */
+    .bloco3{
+        width: 120px;
+        height: 800px;
+        background-color: var(--batepapo);
+    }
+    .bloco3 h2{
+        font-size: 17px;
+        text-align: center;
+    }
+    .bloco3 h3{
+        padding: 9px;
+        font-size: 9;
+    }
+    /* final do bloco 3 */
+    .nomeicon{
+        font-size: 9px;
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+/*final do tablete*/
+@media(min-width:1201px){
+}
